@@ -1,0 +1,11 @@
+# Site settings
+title: The Reach
+email: marc.schmitt.mls@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Personal website of Marc Schmitt. Computer Science Major at Rose-Hulman Institute of Technology.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://schmitml.github.io" # the base hostname & protocol for your site
+github_username:  schmitml
+
+# Build settings
+markdown: kramdown
