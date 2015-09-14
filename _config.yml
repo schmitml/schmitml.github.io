@@ -1,11 +1,62 @@
 # Site settings
-title: The Reach
-email: marc.schmitt.mls@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  Personal website of Marc Schmitt. Computer Science Major at Rose-Hulman Institute of Technology.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://schmitml.github.io" # the base hostname & protocol for your site
-github_username:  schmitml
 
-# Build settings
-markdown: kramdown
+url: "http://schmitml.github.io"
+title: "Marc Schmitt"
+description: "Website and blog of Marc Schmitt."
+keywords: "marc, schmitt, marc schmitt, technology, computer science, rose-hulman"
+favicon: "/img/icons/tri-ico.ico"
+black-favicon: "/img/icons/tri-ico-dark.ico"
+google-tracking-id: ""
+disqus-shortname: ""
+
+# Navigation bar links
+# Blog link in the blog and post pages will point to the blog.html#blog
+# In the default page it will point to the preview of the last post
+
+pages_list:
+  About: 'about'
+  Blog: 'blog'
+  Career: 'career'
+  Contact: 'contact'
+
+background-img: "/img/bg-chi-sky.jpg"
+
+# About variables
+
+me-img: "/img/me.jpg"
+
+# Blog variables
+paginate: 15
+
+paginate_path: "blog/page:num"
+
+post-preview-words: 128
+
+fb-share: True
+twitter-share: True
+reddit-share: True
+
+# Career variables
+
+events:
+  - image: "/img/career/msi.png"
+    date: "June 2015 - August 2015"
+    description: "Developed an Android VoIP application, using an open source SIP stack, capable of video and voice chat with Android Wear support."
+  - image: "/img/career/rose.png"
+    date: "August 2014 - Today"
+    description: "Completing a bachelors of science in computer science."
+
+# First image of the Career timeline
+career-img: "/img/career/default.jpg"
+
+# Social networks variables (many more available: facebook, flickr, dribbble, pinterest, instagram, tumblr etc.)
+social:
+  - title: "github"
+    url: "https://github.com/schmitml"
+  - title: "linkedin"
+    url: "https://www.linkedin.com/pub/marc-schmitt/a5/484/795"
+
+404-img: "/img/labtocat.png"
+
+# Exclusion list from the generated _site
+exclude: ["Rakefile", "LICENSE", "readme.markdown", "vendor"]

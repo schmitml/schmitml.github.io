@@ -1,0 +1,20 @@
+---
+layout: post
+section-type: post
+title: "Finding Tools"
+category: Tech
+tags: [ 'software' ]
+---
+As a student we are taught how things work and we replicate them to a lesser degree. It works well, for the most part,
+by teaching important concepts, but is often cited as being lacking in comparison to learning done "on the job." I have found
+this to be especially true after experiencing it first hand. This teaching strategy fails to teach students how to properly
+leverage the contributions of others, which has become an increasingly valuable and necessary skill in the field of software development.
+I have found web development to be an acute example of this. This website, for example, is using a variety of tools that other
+people have made and shared with the web. <a href="https://jekyllrb.com/" target="_blank"> Jekyll</a> is used to generate this website,
+taking markdown files and running them through a converter to format them and create a static webpage ready for viewing. It's easy to use
+and great for getting up and running quickly. The cool part about Jekyll is that you can mod it to be exactly what you want. You could
+throw <a href="http://getbootstrap.com/" target="_blank">Bootstrap</a> into your layouts to get a nice ui or add in some javascript, like
+<a href="https://github.com/Prinzhorn/skrollr" target="_blank">Skrollr</a>, to add parallax scrolling to every platform. You can leverage
+other people's contribution to get your work done quickly. If you don't find something that fits your needs then go make it yourself and
+share it with other people because someone will find some use for it and be grateful someone took the time to make it. I am certainly
+grateful <a href="http://panossakkos.github.io/" target="_blank">Panos Sakkos</a> took the time to make this awesome theme.
