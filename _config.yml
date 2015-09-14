@@ -23,7 +23,7 @@ background-img: "/img/bg-chi-sky.jpg"
 
 # About variables
 
-me-img: "/img/me.jpg"
+me-img: "/img/me.png"
 
 # Blog variables
 paginate: 15
