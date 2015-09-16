@@ -57,6 +57,7 @@ social:
     url: "https://www.linkedin.com/pub/marc-schmitt/a5/484/795"
 
 404-img: "/img/labtocat.png"
+credit-img: "/img/happy-cat.png"
 
 # Exclusion list from the generated _site
 exclude: ["Rakefile", "LICENSE", "readme.markdown", "vendor"]
