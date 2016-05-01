@@ -39,6 +39,9 @@ reddit-share: True
 # Career variables
 
 events:
+  - image: "/img/career/microsoft.jpg"
+    date: "June 2016 - August 2016"
+    description: "Working in Microsoft Office Group on Excel application."
   - image: "/img/career/msi.png"
     date: "June 2015 - August 2015"
     description: "Developed an Android VoIP application, using an open source SIP stack, capable of video and voice chat with Android Wear support."
